@@ -195,7 +195,7 @@ export class MessageFlowComponent extends Component {
               }}
             >
               <div className="navLink">Tweets</div>
-              <div ref={this.tweetsNavItem} className="underline-decoration" />
+              <div ref={this.tweetsNavItem} className="underline-decoration navActiveLink" />
             </li>
             <li
               onClick={() => {

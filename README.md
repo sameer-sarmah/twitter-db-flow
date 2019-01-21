@@ -1,1 +1,2 @@
-./twitter-db-flow.PNG
+./twitter-db-flow-tweets-tab.PNG
+.twitter-db-flow-analytics-tab.PNG
