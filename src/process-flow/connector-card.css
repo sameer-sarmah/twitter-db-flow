@@ -1,0 +1,24 @@
+
+.text-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 13px;
+    color: gray;
+    font-style: italic;
+    grid-column-gap: 10px; 
+    height: 25%;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.latency-grid-item{
+    grid-row: span 2;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow-container{
+    width: 35%;
+}

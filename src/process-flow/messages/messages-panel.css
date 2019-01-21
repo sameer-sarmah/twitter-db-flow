@@ -1,0 +1,50 @@
+.message-table-header{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.time-table-header{
+   text-align: left;
+   width: 20%;
+}
+
+.tweet-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.tweet-table-header{
+    border-bottom: 2px solid black;
+}
+
+.tweet-cell-icon{
+    height: 35px;
+}
+.tweet-message-span{
+    margin-left: 10px;
+}
+
+.tweet-row{
+    border-bottom: 2px solid gray;
+}
+
+.tweet-panel{
+    margin-top: 50px;
+}
+
+.tweet-select-level{
+    width: 20%;
+}
+
+.tweet-table-filter{
+    width: 20%;
+}
+
+.tweet-flex-row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

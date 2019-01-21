@@ -1,0 +1,28 @@
+
+  .flex-row-container{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content:flex-start;
+  }
+
+  .flex-column-container{
+    display: flex  !important;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+
+  .flex-item {
+    align-self: center;
+    justify-content:"flex-start"
+  }
+
+  #root{
+    height: 100%;
+    width: 100%;
+    background-color: #EEEEEE;
+  }
+  body{
+    background-color: #EEEEEE !important;
+  }

@@ -1,0 +1,100 @@
+.content-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+    height: 60%;
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.2);
+    overflow-y: auto;
+}    
+
+.navbarContainer {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.2);
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+}
+
+.navigationBar {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+
+}
+
+.navLink {
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navActiveLink {
+    background-color: #427cac;
+
+}
+
+.navLink > a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.underline-decoration {
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    top: 2.3rem;
+}
+
+ul.navigationBar li {
+    cursor: pointer;
+    outline: 0;
+    height: 100%;
+    position: relative;
+}
+
+.panel-container {
+    margin: 15px 25px;
+    overflow-y: auto;
+}
+
+.dataflow-monitoring-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.2);
+    height: 35%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    overflow-x: auto;
+}
+
+.graph-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 15px 25px;
+}
+
+.monitoring-ui{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
